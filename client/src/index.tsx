@@ -8,7 +8,9 @@ const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <App />
+      <div className="asdasdasdasdasdasdasdas">
+        <App />
+      </div>
     </React.StrictMode>
   </BrowserRouter>
 );
